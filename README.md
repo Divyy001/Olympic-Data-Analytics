@@ -2,7 +2,11 @@
 Overview
 
 The "Olympic Data Analysis" project is designed to provide insights and visualizations of historical Olympic Games data. The project leverages various Azure cloud services to create a scalable and efficient data pipeline for ingesting, processing, and analyzing data.
+
 Project Architecture
+
+![image](https://github.com/user-attachments/assets/8ec565c3-49bf-4b2d-a9ad-73d835fd4a24)
+
 
     Data Ingestion: Azure Data Factory is used to ingest raw Olympic data from a GitHub repository into Azure Data Lake Gen 2.
     Data Processing: PySpark on Azure Databricks is employed to transform and clean the data, making it ready for analysis.
