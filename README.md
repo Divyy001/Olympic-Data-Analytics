@@ -15,19 +15,19 @@ Project Architecture
 
 Features
 
-Data Ingestion: Automated data ingestion pipeline using Azure Data Factory.
-Data Transformation: Data cleaning and transformation using PySpark, including handling missing values, normalization, and aggregation.
-Data Storage: Scalable and secure storage of transformed data in Azure Data Lake Gen 2.
-Data Querying: Fast querying capabilities with Azure Synapse Analytics for detailed insights.
-Visualization: Interactive dashboards in Power BI for exploring historical Olympic data.
+- Data Ingestion: Automated data ingestion pipeline using Azure Data Factory.
+- Data Transformation: Data cleaning and transformation using PySpark, including handling missing values, normalization, and aggregation.
+- Data Storage: Scalable and secure storage of transformed data in Azure Data Lake Gen 2.
+- Data Querying: Fast querying capabilities with Azure Synapse Analytics for detailed insights.
+- Visualization: Interactive dashboards in Power BI for exploring historical Olympic data.
 
 Tools & Technologies
 
-Azure Data Factory: For orchestrating data ingestion and ETL workflows.
-Azure Databricks (PySpark): For large-scale data processing and transformation.
-Azure Data Lake Gen 2: For secure and scalable data storage.
-Azure Synapse Analytics: For querying and analyzing large datasets.
-Power BI: For creating interactive visualizations and dashboards.
+- Azure Data Factory: For orchestrating data ingestion and ETL workflows.
+- Azure Databricks (PySpark): For large-scale data processing and transformation.
+- Azure Data Lake Gen 2: For secure and scalable data storage.
+- Azure Synapse Analytics: For querying and analyzing large datasets.
+- Power BI: For creating interactive visualizations and dashboards.
 
 DashBoard
 
