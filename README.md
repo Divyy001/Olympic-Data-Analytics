@@ -7,13 +7,11 @@ Project Architecture
 
 ![image](https://github.com/user-attachments/assets/8ec565c3-49bf-4b2d-a9ad-73d835fd4a24)
 
-
-Data Ingestion: Azure Data Factory is used to ingest raw Olympic data from a GitHub repository into Azure Data Lake Gen 2.
-
-Data Processing: PySpark on Azure Databricks is employed to transform and clean the data, making it ready for analysis.
-Data Storage: The cleaned data is stored back in Azure Data Lake Gen 2 for further processing and querying.
-Data Querying: Azure Synapse Analytics is used to query the processed data, enabling fast and efficient retrieval of insights.
-Data Visualization: Power BI is used to create dashboards and visualizations, offering an intuitive way to explore the results of the analysis.
+- Data Ingestion: Azure Data Factory is used to ingest raw Olympic data from a GitHub repository into Azure Data Lake Gen 2.
+- Data Processing: PySpark on Azure Databricks is employed to transform and clean the data, making it ready for analysis.
+- Data Storage: The cleaned data is stored back in Azure Data Lake Gen 2 for further processing and querying.
+- Data Querying: Azure Synapse Analytics is used to query the processed data, enabling fast and efficient retrieval of insights.
+- Data Visualization: Power BI is used to create dashboards and visualizations, offering an intuitive way to explore the results of the analysis.
 
 Features
 
